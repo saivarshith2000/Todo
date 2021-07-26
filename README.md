@@ -5,7 +5,7 @@ A simple todo SPA written in React using Chakra-UI and react-query
     python3 -m venv venv (recommended to use a virtual env)
     source venv/bin/activate
     cd server
-    pip install requirements.txt
+    pip install -r requirements.txt
     ./manage migrate
     ./manage runserver
 
