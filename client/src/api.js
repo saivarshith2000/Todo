@@ -1,6 +1,9 @@
 import axios from 'axios'
 
-const api = axios.create({ baseURL: '/api' })
+baseURL = 'http://localhost:8000/api'
+baseURL_DEV = '/api'
+
+const api = axios.create({ baseURL: baseURL })
 
 export const getTodos = () => api.get('/todos/').then(resp => resp.data)
 
